@@ -4,8 +4,15 @@ public class Tabla {
     private char[][] t;
     private char uresCella;
 
+
+
     public Tabla(char[][] t, char uresCella) {
-        this.t = t;
+        t[8][8] = uresCella;
         this.uresCella = uresCella;
     }
+
+    public void megjelenit(){
+        
+    }
+
 }
