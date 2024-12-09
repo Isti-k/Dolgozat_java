@@ -1,4 +1,4 @@
-package hu.szamalk;
+package modell;
 
 public class Tabla {
     private char[][] t;
@@ -22,7 +22,7 @@ public class Tabla {
         System.out.println('#');
     }
 
-    
+
 
     public void Elhelyez(){
         char N = 'K';
