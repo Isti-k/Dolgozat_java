@@ -11,5 +11,9 @@ public class Babu {
     public Babu(int ero, String szin) {
         this.ero = ero;
         this.szin = szin;
+
+        if (ero >= 1 && ero <= 9) {
+            this.ero = ero;
+        }
     }
 }

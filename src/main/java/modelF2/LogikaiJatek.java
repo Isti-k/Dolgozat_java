@@ -3,26 +3,29 @@ package modelF2;
 import java.util.Arrays;
 
 public class LogikaiJatek extends Jatek {
-    private Babu[][] tabla;
-    private int sorrend[];
+    private Babu[][] tabla = new Babu[4][5];
+    private int sorrend[] = new int[10];
     private int babuDb;
 
     public LogikaiJatek(){
-        this.tabla = new Babu[4][5];
-        this.sorrend = new int[10];
+        if (babuDb >= 2 && babuDb <= 15) {
+            this.babuDb = babuDb;
+        }
+
 
     }
 
     public LogikaiJatek(int babuDb) {
+
         this.babuDb = babuDb;
 
     }
 
     public boolean van8FelettEro(){
-        return false;
+        return true;
     }
 
-    public void kezd(){
+    public void kezd(LogikaiJatek j1){
 
     }
 
@@ -30,7 +33,7 @@ public class LogikaiJatek extends Jatek {
 
     }
 
-    public void vege(){
+    public void vege(LogikaiJatek j2){
 
     }
 
