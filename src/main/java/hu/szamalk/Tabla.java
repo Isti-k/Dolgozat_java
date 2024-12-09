@@ -22,6 +22,8 @@ public class Tabla {
         System.out.println('#');
     }
 
+    
+
     public void Elhelyez(){
         char N = 'K';
         if (N != uresCella){
